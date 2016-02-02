@@ -25,7 +25,3 @@ module AlphaBlog
   end
 end
 
-#whitelist IP to prevent "Cannot render console" errors
-class Application < Rails::Application
-  config.web_console.whitelisted_ips = '68.8.82.163'
-end
